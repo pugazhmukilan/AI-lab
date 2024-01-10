@@ -64,4 +64,4 @@ def amstrong(number):
         print("false")
         return False;
     
-amstrong(143)
+amstrong(153)

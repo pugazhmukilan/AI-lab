@@ -94,7 +94,7 @@ def start():
         print("\n\n posiblity 3\n")
         matrix_mirror(matrix)
         print("\n\n posiblity 4\n")
-        matrix_mirror(printreversedmatrix(matrix))
+        matrix_mirror(matrix)
             
             
            

@@ -40,8 +40,7 @@ def play():
     print()
     p1s='X'
     p2s='O'
-    im = Image.open('Tic Tac Toe.png')
-    im.show()
+   
     for turn in range(9):
         if(turn%2==0):
             print(p1name+'\'s Turn')

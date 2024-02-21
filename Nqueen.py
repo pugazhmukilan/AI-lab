@@ -45,7 +45,7 @@ def solveNqueen(matrix,column_to_solve):
             matrix[i][column_to_solve]=1
             
             if solveNqueen(matrix,column_to_solve+1)==True:
-                print("wait for some time")
+               
                 
                 return True
             
@@ -103,6 +103,6 @@ def start():
         print("\n\n\n\n")
         
         
-    print(matrix)
+    
     
 start()

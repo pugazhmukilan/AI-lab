@@ -24,7 +24,7 @@ dfs(visited,graph,'A')
 
 '''
 PROCEDURE:
-1) intilizing the graph structuring it 
+1) intilizing the graph structuring ufguefgbuiegv 
 2)creating a visited set 
 3)create a function for dfs
 4)parameters should be visited set,graph,node

@@ -6,12 +6,15 @@ graph = {
     'E' : ['F'],
     'F' : []
 }
-
+goal_state = 'F'
 visited = set()
 
 def dfs(visited ,graph,node):
     if node not in visited:
         print("visiting the node",node)
+        if (node ==goal_state):
+            print("ACHIEVED",node)
+            return True
         visited.add(node)
         for neighbour in graph[node]:
             dfs(visited,graph,neighbour)

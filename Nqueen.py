@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 global N
-N=8
+N=4
 
 
 

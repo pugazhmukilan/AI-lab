@@ -1,0 +1,19 @@
+def isSafe(matrix,row,col):
+    check = matrix[row][col]
+    
+    #checking for the row
+    for i in range(N):
+        if  i==col:
+            pass
+        else:
+            if matrix[row][i]==check:
+                return False
+    #checking for the column
+    for i in range(N):
+        if  i==row:
+            pass
+        else:
+            if matrix[i][col]==check:
+                return False
+            
+    return True

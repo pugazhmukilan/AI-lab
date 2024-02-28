@@ -33,3 +33,5 @@ PROCEDURE:
 7)now the function will check the neighbouing nodes of the given node and then use dfs for it and the process
 continues.....
 '''
+
+print("master")

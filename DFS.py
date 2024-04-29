@@ -9,6 +9,7 @@ graph = {
 goal_state = 'F'
 visited = set()
 
+
 def dfs(visited ,graph,node):
     if node not in visited:
         print("visiting the node",node)
